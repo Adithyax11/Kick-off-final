@@ -1,6 +1,6 @@
 const express = require('express')
 const productRouter = express.Router()
-const {addProduct,listProduct,removeProduct} = require('../controllers/productController')
+const {addProduct,listProduct,removeProduct} = require('../controllers/ProductController')
 const multer = require('multer')
 
 //image storage engine
